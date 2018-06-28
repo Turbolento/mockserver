@@ -1,3 +1,5 @@
+# mockserver
+支持微服务consul架构的mockserver服务
 ## 部署到生产环境 ##
 >需开启xsrf防护，用户session，需要nginx做转发,保证前后端cookie一致  
 
