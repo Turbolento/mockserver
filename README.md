@@ -12,12 +12,12 @@
 2. 进入`/server`目录下：`cd server`  
 2.1. 修改mysql数据库配置：`config.yml`  
 2.2. 初始化数据库：`python initDB.py`  
-2.3. 初始化必须数据： `python apps/main/tests.py`
+2.3. 初始化必须数据： `python apps/main/tests.py`  
 2.4. 运行服务器：`python server.py`
 
 3. 安装Nginx  
 3.1. 替换默认`nginx.conf`文件为`/nginx/nginx.conf`  
-3.2. 修改nginx.conf中的dist目录为第1步中生成dist实际目录
+3.2. 修改nginx.conf中的dist目录为第1步中生成dist实际目录  
 3.3. 运行nginx  
 
 4. 访问mockserver:  
@@ -31,7 +31,7 @@
 
 2. 进入`server`目录下，  
 2.1. 注释掉文件`apps/api/handlers.py`中的`BaseHandler`类中的`prepare`函数；  
-2.2. 注释掉上述文件中的所有`@tornado.web.authenticated`
+2.2. 注释掉上述文件中的所有`@tornado.web.authenticated`  
 2.3. 运行服务器：`python server.py`
 
 3. 访问mockserver:  
